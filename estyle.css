@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	background: radial-gradient(#2d2a27, #110e0b);
+}
+
+h1 {
+pointer-events: none;
+font-weight: 600;
+}
+
+.fill {
+	width: 100%;
+	height: 100vh;
+}
+
+.boxes {
+	display: inline-block;
+	width: 200px;
+	height: 110px;
+	background-color: white;
+	margin-left: 8%;
+	margin-top: 10%;
+	filter: sepia(0.4);
+	cursor: pointer;
+	float: left;
+	background-size: 100% 100%;
+}
+
+.boxes:hover {
+	opacity: 0.5;
+	transition: 0.5s;
+}
