@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	/*background-color: #110e0b;*/
+	background: radial-gradient(#2d2a27, #110e0b);
+}
+
+h1 {
+pointer-events: none;
+font-weight: 600;
+}
+
+.fill {
+	width: 100%;
+	height: 100vh;
+}
+
+.boxes {
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	height: 110px;
+	background-color: white;
+	margin-left: 80%;
+	margin-top: 40%;
+	filter: sepia(0.4);
+	cursor: pointer;
+	background-size: 100% 100%;
+	/*box-shadow: inset 15px -15px 15px #110e0b, inset -15px 15px 15px #110e0b, 15px -15px 15px #110e0b, -15px 15px 15px #110e0b;*/
+}
+
+.boxes:hover {
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+
+.date {
+	position: fixed;
+	display: block;
+	width: 250px;
+	height: 50px;
+	bottom: 0;
+	margin-left: 50px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	line-height: 50px;
+	white-space: nowrap;
+	overflow: hidden;
+	animation-name: scrolled;
+	text-indent: 0px;
+	animation-duration: 5s;
+	animation-iteration-count: 10;
+	animation-timing-function: linear;
+}
+
+@keyframes scrolled {
+	0% {text-indent: 250px;}
+    100% {text-indent: -250px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
